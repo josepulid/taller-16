@@ -1,0 +1,143 @@
+body{
+background-image: url( ../imagen/oro.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    width: 70%;
+}
+
+.nav {
+    width: 1600px;
+    margin: 10px;
+    background: rgb(225, 214, 255);
+    border-radius: 20px;
+    width: 140%;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 20px 20px 20px 20px;
+    color: #050505;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+    text-decoration: none;
+    width: 100%;
+}
+
+.menu li a:hover {
+    color: #faf9f8;
+    transition: all .3s;
+}
+
+p {
+   
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  
+  
+/* Submenu*/
+
+.submenu {
+    position: absolute;
+    background: #686363;
+    border-radius: 20px;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #bbb;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+  
+  /*icono con icomootapp*/
+
+
+  /*fuente extraida de dafont*/
+  @font-face {
+    font-family: ban;
+    src: url(../fonts/fuentes/BillionDreams.ttf);
+  }
+ 
+  /*ojo no me deja guardar*/
+ #ban {
+    color:#fff;
+    font-size: 70px;
+    font-style:italic;
+    font-weight: bold;
+    width: 100%;
+    margin: 40px;
+    font-family: ban;
+    
+
+
+    
+ }
+
+    html{
+      font-family: ban;
+    }
+   
+      
+/* Footer */
+#footer {
+  display: block;
+  border-radius: 20px;
+  background: rgb(141, 139, 139);
+  padding: 10px 10px 10px 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  padding: 0;
+  font-size: 0.9rem;
+  
+
+}
+
+footer {
+  font-weight: bold;
+} 
+#footer a {
+  color: rgba(19, 17, 17, 0.5);
+}
+
+#footer a:hover {
+  color: #FFF;
+
+/*fin footer*/
